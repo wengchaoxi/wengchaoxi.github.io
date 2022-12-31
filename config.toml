@@ -1,5 +1,52 @@
 baseURL = 'https://wengchaoxi.github.io'
 languageCode = 'zh-cn'
+
 title = 'Hello World'
 
+paginate = 3
+enableInlineShortcodes = true
+
 theme = 'holy'
+
+[params]
+  copyright = "© chaoxiweng"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
